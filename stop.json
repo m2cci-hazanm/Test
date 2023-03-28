@@ -3,32 +3,31 @@
     "features": [
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    636379.307674409,
-                    5650696.009493606
-                ]
-            },
             "properties": {
                 "id_arret": 8,
                 "date_debut_arret": "2019-07-08T16:09:09",
                 "date_fin_arret": "2019-07-08T17:04:27"
-            }
-        },
-        {
-            "type": "Feature",
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    636804.507379301,
-                    5650728.739503585
+                    5.7245, 45.1885
                 ]
-            },
+            }
+
+        },
+        {
+            "type": "Feature",
             "properties": {
                 "id_arret": 9,
                 "date_debut_arret": "2019-07-08T17:10:02",
                 "date_fin_arret": "2019-07-08T17:34:57"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.7245, 48.1885
+                ]
             }
         },
         {
@@ -36,56 +35,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    636409.767352368,
-                    5650708.98761257
+                    5.7245, 45.1885
                 ]
             },
             "properties": {
                 "id_arret": 10,
                 "date_debut_arret": "2019-07-08T17:41:17",
                 "date_fin_arret": "2019-07-09T05:49:28"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "crs": {
-                    "type": "name",
-                    "properties": {
-                        "name": "EPSG:3857"
-                    }
-                },
-                "coordinates": [
-                    636042.125637177,
-                    5651202.774867562
-                ]
-            },
-            "properties": {
-                "id_arret": 11,
-                "date_debut_arret": "2019-07-09T05:57:43",
-                "date_fin_arret": "2019-07-09T05:59:13"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "crs": {
-                    "type": "name",
-                    "properties": {
-                        "name": "EPSG:3857"
-                    }
-                },
-                "coordinates": [
-                    642605.790115966,
-                    5651356.048190709
-                ]
-            },
-            "properties": {
-                "id_arret": 12,
-                "date_debut_arret": "2019-07-09T06:27:33",
-                "date_fin_arret": "2019-07-09T07:06:19"
             }
         }
     ]
