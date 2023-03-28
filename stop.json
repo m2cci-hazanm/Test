@@ -10,10 +10,11 @@
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    5.7245, 45.1885
-                ]
-            }
+                "crs":{
+                    "type":"name",
+                    "properties":{"name":"EPSG:3857"}
+                },
+                "coordinates":[642453.345338302,5651849.469694674]},
 
         },
         {
